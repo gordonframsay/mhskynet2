@@ -1,0 +1,18 @@
+Started GET "/" for 10.0.0.94 at 2022-12-03 12:22:09 -0800
+Cannot render console from 10.0.0.94! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/3.1.0/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 642)
+Completed 200 OK in 11ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 5187)
+
+
+Started GET "/" for 10.0.0.94 at 2022-12-03 12:40:36 -0800
+Cannot render console from 10.0.0.94! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by HomeController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 438.7ms | Allocations: 88220)
+Completed 200 OK in 446ms (Views: 440.7ms | Allocations: 89322)
+
+
